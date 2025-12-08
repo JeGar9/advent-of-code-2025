@@ -12,7 +12,8 @@ add_executable(AdventOfCode_2025
         AdventOfCode2025/Program.cpp
         AdventOfCode2025/util/ULongTrie.cpp
         AdventOfCode2025/Day3/Day3Solution.cpp
-        AdventOfCode2025/Day4/Day4Solution.cpp)
+        AdventOfCode2025/Day4/Day4Solution.cpp
+        AdventOfCode2025/Day5/Day5Solution.cpp)
 
 target_include_directories(AdventOfCode_2025 PRIVATE AdventOfCode2025/util)
 
