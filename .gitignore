@@ -2,3 +2,13 @@ AdventOfCode2025/.vs/*
 AdventOfCode2025/Day1/x64/*
 *.exe
 *.pdb
+*.iml
+/.idea/
+/cmake-build-debug/
+/AdventOfCode2025/AdventOfCode2025/
+/AdventOfCode2025/.vs/
+/AdventOfCode2025/AdventOfCode2025.sln
+/AdventOfCode2025/Day1/AdventOfCode2025.aps
+/AdventOfCode2025/Day1/AdventOfCode2025.vcxproj
+/AdventOfCode2025/Day1/AdventOfCode2025.vcxproj.filters
+/AdventOfCode2025/Day1/AdventOfCode2025.vcxproj.user

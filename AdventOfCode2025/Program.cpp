@@ -8,6 +8,10 @@
 #include "Day2/Day2Solution.h"
 #include "Day3/Day3Solution.h"
 #include "Day4/Day4Solution.h"
+#include "Day5/Day5Solution.h"
+#include "Day6/Day6Solution.h"
+#include "Day7/Day7Solution.h"
+
 
 std::vector<std::string> readFileLines(const std::string &filename) {
     std::ifstream file(filename);
@@ -43,6 +47,18 @@ int main(int argc, char *argv[]) {
         case 4:
             result1 = Day4::solve1(fileLines);
             result2 = Day4::solve2(fileLines);
+            break;
+        case 5:
+            result1 = Day5::solve1(fileLines);
+            result2 = Day5::solve2(fileLines);
+            break;
+        case 6:
+            result1 = Day6::solve1(fileLines);
+            result2 = Day6::solve2(fileLines);
+            break;
+        case 7:
+            result1 = Day7::solve1(fileLines);
+            result2 = Day7::solve2(fileLines);
             break;
         default:
             break;
