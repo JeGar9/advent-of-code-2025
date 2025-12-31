@@ -11,6 +11,7 @@
 #include "Day5/Day5Solution.h"
 #include "Day6/Day6Solution.h"
 #include "Day7/Day7Solution.h"
+#include "Day8/Day8Solution.h"
 
 
 std::vector<std::string> readFileLines(const std::string &filename) {
@@ -59,6 +60,10 @@ int main(int argc, char *argv[]) {
         case 7:
             result1 = Day7::solve1(fileLines);
             result2 = Day7::solve2(fileLines);
+            break;
+        case 8:
+            result1 = Day8::solve1(fileLines);
+            result2 = Day8::solve2(fileLines);
             break;
         default:
             break;
